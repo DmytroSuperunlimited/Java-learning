@@ -1,6 +1,7 @@
 package org.example.lessions.lession1.tesk4;
 
 public class BankRefill {
+
     static int[] balances = {1200, 250, 2000, 500, 3200};
     static String[] ownerNames = {"Jane", "Ann", "Jack", "Oww", "Lane"};
     static String ownerName = "Ann";

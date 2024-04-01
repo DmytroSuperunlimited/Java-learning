@@ -3,20 +3,24 @@ package org.example.lessions.lession2.task3;
 import java.util.Date;
 
 public class Course {
+
         private static Date startDate = new Date();
         private static String name;
         private static int hoursDuration;
         private static String teacherName;
+
         public static void construct(Date startDateSet, String nameSet) {
                 startDate = startDateSet;
                 name = nameSet;
         }
+
         public static void construst(String nameSet, int hoursDurationSet, String teacherNameSet) {
                 name = nameSet;
                 hoursDuration = hoursDurationSet;
                 teacherName = teacherNameSet;
         }
         //Setters
+
         public static void setStartDate(Date startDate) {
                 Course.startDate = startDate;
         }

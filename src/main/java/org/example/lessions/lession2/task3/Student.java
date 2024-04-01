@@ -1,16 +1,19 @@
 package org.example.lessions.lession2.task3;
 
 public class Student {
+
     private static String firstName;
     private static String lastName;
     private static int group;
     private static Course[] coursesTaken;
     private static int age;
+
     public static void construct(String firstNameSet, String lastNameSet, int groupSet){
         firstName = firstNameSet;
         lastName = lastNameSet;
         group = groupSet;
     }
+
     public static void construct(String lastNameSet, Course[] coursesTakenSet) {
         lastName = lastNameSet;
         coursesTaken = coursesTakenSet;
@@ -48,6 +51,7 @@ public class Student {
     public static Course[] getCoursesTaken() {
         return coursesTaken;
     }
+
     public static int getGroup() {
         return group;
     }

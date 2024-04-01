@@ -1,6 +1,7 @@
 package org.example.lessions.lession1.tesk3;
 
 public class Bank_v2 {
+
     static int[] balances = {1200, 250, 2000, 500, 3200};
     static String[] ownerNames = {"Jane", "Ann", "Jack", "Oww", "Lane"};
     static String ownerName = "Ann";
@@ -23,6 +24,7 @@ public class Bank_v2 {
             System.out.println(ownerName + " NO");
         }
     }
+
     public static void main(String[] args) {
         bank2(ownerNames,balances,ownerName,withdrawal);
     }

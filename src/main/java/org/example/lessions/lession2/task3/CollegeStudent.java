@@ -1,18 +1,24 @@
 package org.example.lessions.lession2.task3;
 
 public class CollegeStudent extends Student {
+
     private static String collegeName;
+
     private static int rating;
+
     private static long id;
+
     public static void constructCollege(String firstNameSet, String lastNameSet, int groupSet){
         setFirstName(firstNameSet);
         setLastName(lastNameSet);
         setGroup(groupSet);
     }
+
     public static void constructCollege(String lastNameSet, Course[] coursesTakenSet) {
         setLastName(lastNameSet);
         setCoursesTaken(coursesTakenSet);
     }
+
     public static void constructCollage(String collegeNameSet, int ratingSet, long idSet) {
         collegeName = collegeNameSet;
         rating = ratingSet;
