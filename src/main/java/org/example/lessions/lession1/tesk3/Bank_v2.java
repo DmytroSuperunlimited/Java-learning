@@ -1,4 +1,4 @@
-package org.example.lessions.lession1;
+package org.example.lessions.lession1.tesk3;
 
 public class Bank_v2 {
     static int[] balances = {1200, 250, 2000, 500, 3200};

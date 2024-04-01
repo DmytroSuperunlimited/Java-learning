@@ -1,4 +1,4 @@
-package org.example.lessions.lession1;
+package org.example.lessions.lession1.task1;
 
 
 import java.util.Arrays;

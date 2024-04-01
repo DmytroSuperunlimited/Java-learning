@@ -1,4 +1,4 @@
-package org.example.lessions.lession1;
+package org.example.lessions.lession1.task2;
 
 public class Bank {
     static double withdrawal = 5;
