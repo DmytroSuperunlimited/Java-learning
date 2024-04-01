@@ -13,7 +13,4 @@ public class Bank {
             System.out.println("NO");
         }
     }
-    public static void main(String[] args) {
-        bank(withdrawal);
-    }
 }

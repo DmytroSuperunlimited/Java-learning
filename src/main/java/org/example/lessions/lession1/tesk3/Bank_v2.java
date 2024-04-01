@@ -24,9 +24,5 @@ public class Bank_v2 {
             System.out.println(ownerName + " NO");
         }
     }
-
-    public static void main(String[] args) {
-        bank2(ownerNames,balances,ownerName,withdrawal);
-    }
 }
 

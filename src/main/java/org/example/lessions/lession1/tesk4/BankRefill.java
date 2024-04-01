@@ -20,9 +20,5 @@ public class BankRefill {
         balances[ownerNumber] = (int) balanse;
         System.out.println(ownerName + " " + balanse);
     }
-
-    public static void main(String[] args) {
-        bankRefill(ownerNames,balances,ownerName,withdrawal);
-    }
 }
 
