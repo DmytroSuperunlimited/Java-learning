@@ -62,9 +62,11 @@ public class User {
     public void setCurrency(String currency) {
         this.currency = currency;
     }
+
     public void sallary(int sallary){
         setBalance(getBalance()+sallary);
     }
+
     public void withdraw(int summ){
         if (summ<1000) {
             if (getBalance()>summ+summ*0.1) {
@@ -86,6 +88,7 @@ public class User {
     public int companyNameLenght() {
         return getCompanyName().length();
     }
+
     public void increaseEmploymentMonth(int addMonth) {
         setMonthsOfEmployment(getMonthsOfEmployment()+addMonth);
     }
