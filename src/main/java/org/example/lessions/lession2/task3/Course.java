@@ -9,32 +9,32 @@ public class Course {
         private static int hoursDuration;
         private static String teacherName;
 
-        public static void construct(Date startDateSet, String nameSet) {
-                startDate = startDateSet;
-                name = nameSet;
+        public void construct(Date startDate, String name) {
+                this.startDate = startDate;
+                this.name = name;
         }
 
-        public static void construst(String nameSet, int hoursDurationSet, String teacherNameSet) {
-                name = nameSet;
-                hoursDuration = hoursDurationSet;
-                teacherName = teacherNameSet;
+        public void construst(String nameSet, int hoursDurationSet, String teacherNameSet) {
+                this.name = nameSet;
+                this.hoursDuration = hoursDurationSet;
+                this.teacherName = teacherNameSet;
         }
         //Setters
 
-        public static void setStartDate(Date startDate) {
-                Course.startDate = startDate;
+        public void setStartDate(Date startDate) {
+                this.startDate = startDate;
         }
 
-        public static void setName(String name) {
-                Course.name = name;
+        public void setName(String name) {
+                this.name = name;
         }
 
-        public static void setHoursDuration(int hoursDuration) {
-                Course.hoursDuration = hoursDuration;
+        public void setHoursDuration(int hoursDuration) {
+                this.hoursDuration = hoursDuration;
         }
 
-        public static void setTeacherName(String teacherName) {
-                Course.teacherName = teacherName;
+        public void setTeacherName(String teacherName) {
+                this.teacherName = teacherName;
         }
         //Getters
 

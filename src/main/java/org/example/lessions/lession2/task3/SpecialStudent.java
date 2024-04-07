@@ -6,24 +6,24 @@ public class SpecialStudent extends CollegeStudent{
 
     private static String email;
 
-    public static void ConstructSpetial(String collegeNameSet, int ratingSet, long idSet) {
-        setCollegeName(collegeNameSet);
-        setRating(ratingSet);
-        setId(idSet);
+    public static void ConstructSpetial(String collegeName, int rating, long id) {
+        setCollegeName(collegeName);
+        setRating(rating);
+        setId(id);
     }
 
-    public static void ConstructSpetial(long secretKeySet) {
-        secretKey = secretKeySet;
+    public void ConstructSpetial(long secretKey) {
+        this.secretKey = secretKey;
     }
     //Setters
 
-    public static void setEmail(String email) {
-        SpecialStudent.email = email;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 
-    public static void setSecretKey(long secretKey) {
-        SpecialStudent.secretKey = secretKey;
+    public void setSecretKey(long secretKey) {
+        this.secretKey = secretKey;
     }
     //Getters
 

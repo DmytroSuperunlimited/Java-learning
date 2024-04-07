@@ -8,7 +8,7 @@ public class Sollution {
     Course courseThree = new Course();
     Course courseFour = new Course();
     Course courseFive = new Course();
-    static Student student = new Student();
+    Student student = new Student();
     CollegeStudent collegeStudent = new CollegeStudent();
     SpecialStudent specialStudent = new SpecialStudent();
 }
