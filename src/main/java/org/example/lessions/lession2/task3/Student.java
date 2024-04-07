@@ -1,35 +1,38 @@
 package org.example.lessions.lession2.task3;
 
 public class Student {
+
     private static String firstName;
     private static String lastName;
     private static int group;
     private static Course[] coursesTaken;
     private static int age;
-    public static void construct(String firstNameSet, String lastNameSet, int groupSet){
-        firstName = firstNameSet;
-        lastName = lastNameSet;
-        group = groupSet;
+
+    public void construct(String firstName, String lastName, int group){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.group = group;
     }
-    public static void construct(String lastNameSet, Course[] coursesTakenSet) {
-        lastName = lastNameSet;
-        coursesTaken = coursesTakenSet;
+
+    public void construct(String lastName, Course[] coursesTake) {
+        this.lastName = lastName;
+        this.coursesTaken = coursesTaken;
     }
     //Setters
-    public static void setFirstName(String firstName) {
-        Student.firstName = firstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public static void setLastName(String lastName) {
-        Student.lastName = lastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public static void setGroup(int group) {
-        Student.group = group;
+    public void setGroup(int group) {
+        this.group = group;
     }
 
-    public static void setCoursesTaken(Course[] coursesTaken) {
-        Student.coursesTaken = coursesTaken;
+    public void setCoursesTaken(Course[] coursesTaken) {
+        this.coursesTaken = coursesTaken;
     }
 
     public static void setAge(int age) {
@@ -48,6 +51,7 @@ public class Student {
     public static Course[] getCoursesTaken() {
         return coursesTaken;
     }
+
     public static int getGroup() {
         return group;
     }

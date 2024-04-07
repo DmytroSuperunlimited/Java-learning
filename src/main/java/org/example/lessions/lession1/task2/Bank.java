@@ -1,7 +1,8 @@
-package org.example.lessions.lession1;
+package org.example.lessions.lession1.task2;
 
 public class Bank {
     static double withdrawal = 5;
+
     public static void bank(double withdrawal) {
         double balanse = 100;
         double comission = withdrawal*0.05;
@@ -11,8 +12,5 @@ public class Bank {
         } else {
             System.out.println("NO");
         }
-    }
-    public static void main(String[] args) {
-        bank(withdrawal);
     }
 }
